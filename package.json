@@ -3,7 +3,7 @@
   "name": "vite-custom-template-react",
   "description": "Vite 커스텀 템플릿을 사용해 React 프로젝트 오토 스캐폴딩",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint \"./src/**\" --report-unused-disable-directives --ignore-pattern .gitignore"
